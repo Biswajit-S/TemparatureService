@@ -6,7 +6,7 @@
 
 ## GET Temperature API
 * The API currently support two values (day or hour) for "interval" param, which returns temperature data for 1 day or 1 hour respectively.
-* Probably, this will not be a real world usecase. This solution be extended to use custm times like 1hour, 2hours, 2 day etc.
+* Probably, this will not be a real world usecase. This solution can be extended to use custom times like 1hour, 2hours, 2 day etc.
 
 ## Error Codes and Error Message
 * Error codes and messages are defined in a Class (StatusCodes.java). These can be read from a properties file.

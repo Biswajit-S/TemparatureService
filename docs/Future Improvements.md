@@ -1,7 +1,7 @@
-# Future Improvemnets
+# Future Improvements
 
 ## Database Connection
-* The DB Connection is hard-coded in hibernate configuration file, which is a bad. They can be read from a properties file.
+* The DB Connection is hard-coded in hibernate configuration file, which is a bad practice. They can be read from a properties file.
 * Every API request creates a DB new connection. Connection pooling can be used.
 
 ## GET Temperature API

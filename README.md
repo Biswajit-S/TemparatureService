@@ -1,9 +1,11 @@
 # Temperature Service
 
-## Save Temparature
+## Sample Requests
+
+### Save Temparature
  
 ```
-POST http://localhost:8580/temperature/rest/service
+POST http://{HOSTNAME}/temperature/rest/service
 
 [
     {
@@ -21,11 +23,11 @@ Content-Type: application/json
 Accept: application/json
 ```
 
-## Retrieve Temparature Values
+### Retrieve Temparature Values
 
 ```
 
-GET http://localhost:8580/temperature/rest/service?interval=day
+GET http://{HOSTNAME}/temperature/rest/service?interval=day
 
 Header
 Content-Type: application/json
